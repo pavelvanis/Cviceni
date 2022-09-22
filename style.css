@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(244, 256, 244);
+}
+
+address {
+    border-style: solid;
+    border-width: 1px;
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+strong {
+    font-size: 125%;
+}
+
+p {
+    font-style: normal;
+}
+
+main {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+li {
+    list-style: none;
+}
+
+ol li{
+    list-style-type: upper-roman;
+}
