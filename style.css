@@ -1,5 +1,6 @@
 body {
     background-color: rgb(244, 256, 244);
+    line-height: 1.35em;
 }
 
 address {
@@ -40,4 +41,13 @@ li {
 
 ol li{
     list-style-type: upper-roman;
+}
+
+dl dt:hover + dd {
+    display: block;
+
+}
+
+dd {
+    display: none;
 }
